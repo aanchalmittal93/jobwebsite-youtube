@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://jobwebsite-youtube.onrender.com/',
+    origin:'https://jobwebsite-youtube-1.onrender.com/onrender.com/',
     credentials:true
 }
 app.use(cors(corsOptions));
